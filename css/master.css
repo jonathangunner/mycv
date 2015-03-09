@@ -1,0 +1,121 @@
+#page-container {
+                width: 900px;
+                margin: auto;
+                }
+
+html, body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, Verdana, Sans-serif;
+            font-size: 12px;
+            color: #666666;
+            background-color: #D5E3F0;
+            }
+
+.hidden {
+        display: none;
+        }
+
+div {
+    padding: 25px;
+    }
+
+#main-nav   {
+            height: 50px;
+            }
+
+#header {
+        height: 150px;
+        background: #db6d16
+                    url(../images/header.jpg);
+        border-radius: 20px;
+        }
+
+#sidebar-a  {
+            float: right;  
+            width: 280px;
+            line-height: 18px;
+            }
+
+#content    {
+            margin-right: 280px;
+            line-height: 18px;
+            }
+
+#footer {
+        clear: both;
+        font-family: Tahoma, Arial, Helvetica, Sans-serif;
+        font-size: 10px;
+        color: dimgrey;
+        border-top: 1px solid #efefef;
+        padding: 13px 25px;
+        line-height: 18px;
+        }
+
+#main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+
+#main-nav li {
+    float: left;
+    }
+
+#main-nav li a {
+    display: block;
+    width: 60px;
+    }
+
+#main-nav a:link {
+            display: block;
+            width: 120px;
+            font-weight: bold;
+            color: black;
+            background-color: lightgoldenrodyellow;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;
+            text-transform: uppercase;
+            }
+
+#main-nav a:hover, a:active {
+                            background-color: lightblue;
+                            }
+
+#main-nav ul li {
+                margin-right: 40px;
+                }
+
+h1 {
+	margin: 0;
+	padding: 0;
+    margin-top: 57px;
+	padding-left: 31px;
+    }
+
+#content h2 {
+            margin: 0;
+            padding: 0;
+            padding-bottom: 15px;
+            }
+
+#content p {
+            margin: 0;
+            padding: 0;
+            padding-bottom: 15px;
+            }
+
+#footer a   {
+            text-decoration: none;
+            }
+
+#footer a:hover {
+                color: #db6d16;
+                }
+
+#footer #altnav {
+                width: 350px;
+                float: right;
+                text-align: right;
+                }
